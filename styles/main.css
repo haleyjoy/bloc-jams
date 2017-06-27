@@ -79,6 +79,10 @@ text-decoration: none;
      margin: 0 auto;
      max-width: 64rem;
  }
+
+ .container.narrow {
+     max-width: 56rem;
+ }
  
 
 
