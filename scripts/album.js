@@ -49,8 +49,7 @@ var createSongRow = function(songNumber, songName, songLength) {
     setSong(songNumber);
     currentSoundFile.play();
     updateSeekBarWhileSongPlays();
-    currentSongFromAlbum = currentAlbum.songs[songNumber - 1];
-+    
+
 +   var $volumeFill = $('.volume .fill');
 +   var $volumeThumb = $('.volume .thumb');
 +   $volumeFill.width(currentVolume + '%');
