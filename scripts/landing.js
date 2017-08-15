@@ -30,4 +30,4 @@ var revealPoint = function(point) {
              animatePoints();   
          }
      });
- }
+ });
